@@ -4,9 +4,11 @@
     <h2 class="post-item post-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </h2>
-    <div class="post-item post-meta">
-        {{ partial "post-meta.html" . }}
-    </div>
+    {{ if eq .Type "post" }}
+        <div class="post-item post-meta">
+            {{ partial "post-meta.html" . }}
+        </div>
+    {{ end }}
     <!-- post main content -->
     <div class="post-content markdown-body">
         {{ .Content }}
