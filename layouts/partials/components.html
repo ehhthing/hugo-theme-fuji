@@ -33,17 +33,6 @@
             {{ end }}
         </ul>
     </div>
-    <!-- tags -->
-    <div class="sidebar-item sidebar-tags">
-        <h3>{{ i18n "sidebarTags" }}</h3>
-        <div>
-            {{ range .Site.Taxonomies.tags }}
-            <span>
-                <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
-            </span>
-            {{ end }}
-        </div>
-    </div>
     <!-- in-post toc -->
     {{ if in .Site.Params.mainSections .Type }}
     {{ if and (or .Site.Params.showToc .Params.showToc) (ne .Params.showToc false) }}
