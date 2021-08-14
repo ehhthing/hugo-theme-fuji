@@ -29,7 +29,7 @@
     other = "{{ .Count }}分"
 
 [postCopyrightFront]
-    other = "特定のセクションを除いて、此のサイトは "
+    other = "明記されている特定の部分を除いて、此のウェブサイトは"
 
 [postCopyrightEnd]
     other = "でライセンスされています。" # <license>のライセンス下で提供されています。 might be better
@@ -38,10 +38,10 @@
     other = "コメントを表示"
 
 [archivesTotalPages]
-    other = "総記事数："
+    other = "総投稿数："
 
 [tagsCurrentTag]
-    other = "タグ {{ .Title }} を持つ記事："
+    other = "{{ .Title }}のタグが付いている投稿"
 
 [searchSuccess]
     other = "[NUM]件（[TIME]ミリ秒）"
