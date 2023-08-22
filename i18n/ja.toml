@@ -2,7 +2,7 @@
     other = "目次"
 
 [sidebarPages]
-    other = "ページ"
+    other = "頁" # 頁=ページ
 
 [sidebarTags]
     other = "タグ"
@@ -14,40 +14,40 @@
     other = "番組"
 
 [footerPoweredFront]
-    other = "Powered by "
+    other = ""
 
 [footerPoweredEnd]
-    other = " "
+    other = "を使用しています。"
 
 [postMetaNoTag]
-    other = "タグはありません"
+    other = "タグは在りません"
 
 [postMetaWordCount]
-    other = "{{.Count}} 字"
+    other = "{{ .Count }}字"
 
 [postMetaReadingTime]
-    other = "{{.Count}} 分"
+    other = "{{ .Count }}分"
 
 [postCopyrightFront]
-    other = "特定のセクションを除いて、このサイトは "
+    other = "明記されている特定の部分を除いて、此のウェブサイトは"
 
 [postCopyrightEnd]
-    other = " の下に提供されています。"
+    other = "でライセンスされています。" # <license>のライセンス下で提供されています。 might be better
 
 [postComment]
     other = "コメントを表示"
 
 [archivesTotalPages]
-    other = "総記事数："
+    other = "総投稿数："
 
 [tagsCurrentTag]
-    other = "タグ {{ .Title }} を持つ記事："
+    other = "{{ .Title }}のタグが付いている投稿"
 
 [searchSuccess]
-    other = "[NUM] 件 ([TIME] ミリ秒)"
+    other = "[NUM]件（[TIME]ミリ秒）"
 
 [searchNotFound]
-    other = "検索できませんでした"
+    other = "該当する結果が在りません"
 
 [searchFailed]
-    other = "インデックスを取得できません"
+    other = "インデックスを取得出来ません"
